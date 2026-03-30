@@ -1,3 +1,6 @@
+#Chen Sihan
+#2026/3/30
+#GPIO18 outputs a high level,turns on the LED,and then turns it off after 1 second.
 import RPi.GPIO as GPIO
 import time
 GPIO.setmode(GPIO.BCM)
